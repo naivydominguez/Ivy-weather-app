@@ -23,7 +23,7 @@ and dynamically updates the interface with detailed weather information.
 ## How to run
 
 1. Clone the repository:
-git clone https://github.com/your-username/Ivy-weather-app.git
+git clone https://github.com/naivydominguez/Ivy-weather-app.git
 
 2. Open index.html in your browser
    
