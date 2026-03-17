@@ -26,3 +26,6 @@ and dynamically updates the interface with detailed weather information.
 git clone https://github.com/your-username/Ivy-weather-app.git
 
 2. Open index.html in your browser
+   
+##Demo
+![Weather App Demo](assets/RainyDayzDemo.gif)
