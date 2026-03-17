@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <header>
+        <h1>⋆.ೃ࿔⛈ ݁ ˖*༄ Rainy Dayz ☀︎⋆.ೃ࿔*:･</h1>
+    </header>
+
+    <main>
+        <section id="search">
+            <h2>Check the Weather</h2>
+            <form id="weather-form">
+                <input type="text" id="city-input" placeholder="Enter city name"
+                required>
+                <div id="search-history"></div>
+                <button type="submit">Get Weather</button>
+            </form>
+        </section>
+
+        <section id="weather-display">
+            <h2>Weather Information</h2>
+            <div id="weather-box">
+            <button id="unit-toggle">°C / °F</button>
+            <div id="weather-container"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Ivys App. All rights reserved. ⋆˚✿˖°</p>
+    </footer>
+
+    
+    <!--script type=module src="scripts/weatherService.js"></script-->
+    <script type=module src="scripts/main.js"></script>
+    
+
+</body>
+</html>
